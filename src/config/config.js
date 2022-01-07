@@ -1,6 +1,21 @@
+import Phaser from "phaser";
+import MapScene from "../scenes/MapScene";
+import TitleScene from "../scenes/TitleScene";
+
 export default {
-  type: Phaser.AUTO,  // Specify the underlying browser rendering engine (AUTO, CANVAS, WEBGL)
-                      // AUTO will attempt to use WEBGL, but if not available it'll default to CANVAS
-  width: 800,   // Game width in pixels
-  height: 600,  // Game height in pixels
+  type: Phaser.AUTO,
+  width: 600,
+  height: 400,
+  parent: "phaser-game",
+  physics: {
+    // Specify physics engine and configuration
+    default: "arcade",
+    arcade: {
+      gravity: { y: 0 },
+      debug: false,
+    },
+  },
+  pixelArt: true,
+  roundPixels: true,
+  scene: [TitleScene, MapScene],
 };

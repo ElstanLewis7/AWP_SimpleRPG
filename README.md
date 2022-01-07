@@ -1,4 +1,4 @@
-# FullBlast Academy
+# AWP Simple RPG Game
 
 Let's build a game!
 
