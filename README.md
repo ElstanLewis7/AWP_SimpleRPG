@@ -1,9 +1,10 @@
 # AWP- Explorer Simple RPG Game
 
-# Technolgies used - Phaser, Tiled, LeshyLabs and OpenGameArt.org
+# Technolgies Used - Phaser, Tiled, LeshyLabs, Heroku and OpenGameArt.org
 
 Phaser- to create the game scenes, collisions, camera motion and transitions.
 Tiled- to create the map and title screen.
+Heroku- Deploy app
 LeshyLabs - to create the spritesheet for sprite animations.
 OpenGameArt.org - open source resource used for tileset and spritesheet.
 TileSet- terrain_atlas.png
