@@ -1,4 +1,4 @@
-/** @type {import("../typings/phaser")} */
+/** @type {import("../public/typings/phaser")} */
 
 import Phaser from "phaser";
 
