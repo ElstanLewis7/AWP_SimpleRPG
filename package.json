@@ -12,11 +12,11 @@
   },
   "homepage": "https://github.com/ElstanLewis7/AWP_SimpleRPG",
   "dependencies": {
-    "phaser": "^3.15.1"
+    "phaser": "^3.55.2"
   },
   "devDependencies": {
     "raw-loader": "^0.5.1",
-    "webpack": "^3.4.1",
+    "webpack": "^3.12.0",
     "webpack-dev-server": "^2.11.5"
   },
   "heroku-run-build-script": true
