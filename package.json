@@ -1,7 +1,7 @@
 {
-  "name": "PhaserWorkshop",
+  "name": "Explorer",
   "version": "1.0.0",
-  "description": "A workshop for getting started with Phaser",
+  "description": "A single map rpg",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server"

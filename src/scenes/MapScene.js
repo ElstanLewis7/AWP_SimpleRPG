@@ -96,7 +96,7 @@ export default class MapScene extends Phaser.Scene {
     mushrooms.setCollisionByProperty({ overlap: true });
     this.physics.add.overlap(this.player, mushrooms);
 
-    this.player.body.velocity.normalize();
+    this.player.body.velocity.normalize().scale(100);
     this.player.setDepth(0);
     overhead.setDepth(10);
     this.createAnims();

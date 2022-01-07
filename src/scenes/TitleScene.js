@@ -13,10 +13,12 @@ export default class TitleScene extends Phaser.Scene {
 
   create() {
     // Create Map
-    this.add.image(300, 200, "title");
+    this.titleScene = this.add.image(300, 200, "title");
     const music = this.sound.add("music");
     music.setLoop(true);
     music.play();
-    this.input.on("pointerdown", () => this.scene.start("MapScene"), this);
+    this.titleScene
+      .setInteractive()
+      .on("pointerdown", () => this.scene.start("MapScene"), this);
   }
 }
