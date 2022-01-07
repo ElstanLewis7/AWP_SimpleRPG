@@ -4,8 +4,13 @@
   "description": "A single map rpg",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --host=0.0.0.0 --port=$PORT --disable-host-check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElstanLewis7/AWP_SimpleRPG"
+  },
+  "homepage": "https://github.com/ElstanLewis7/AWP_SimpleRPG",
   "dependencies": {
     "phaser": "^3.15.1"
   },
@@ -13,5 +18,6 @@
     "raw-loader": "^0.5.1",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.11.0"
-  }
+  },
+  "heroku-run-build-script": true
 }
